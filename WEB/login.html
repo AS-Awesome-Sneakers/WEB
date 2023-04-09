@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        form {
+        display: flex;
+        flex-direction: column;
+        }
+
+        h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        }
+
+        label {
+        font-size: 16px;
+        margin-bottom: 5px;
+        }
+
+        #body input {
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        font-size: 16px;
+        padding: 10px;
+        margin-bottom: 10px;
+        }
+
+        #body button {
+        background-color: #007bff;
+        border: none;
+        border-radius: 3px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 16px;
+        padding: 10px;
+        }  
+        .social-login {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    }
+
+    .google-login {
+    margin-bottom: 10px;
+    }
+
+    .facebook-login {
+    margin-bottom: 10px;
+    }
+
+    .btn-google, .btn-facebook {
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    }
+
+    .btn-google {
+    background-color: #db4437;
+    }
+
+    .btn-facebook {
+    background-color: #3b5998;
+    }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="menu">
+            <div class="logo">
+                <a href="https://www.facebook.com/">AS awesome sneaker</a>
+            </div>
+            <div class="menu">
+                <div class="item-menu">
+                    <a href="">Home</a>
+                </div>
+                <div class="item-menu">
+                    <a href="">Shop</a>
+                </div>
+                <div class="item-menu">
+                    <a href="">About AS</a>
+                </div>
+                <div class="item-menu">
+                    <a href="">Customer Service</a>
+                </div>
+            </div>
+            <div class="icon">
+                <div>
+                    <a href=""><i class="fa fa-user-circle" aria-hidden="true" style="color: #FEAD37;"> Log In</i></a>
+                </div>
+                <div>
+                    <a href=""><i class="fa fa-shopping-cart" style="color: #FEAD37;"></i></a>
+                </div>
+            </div>
+        </div>
+        <div id="body" style="margin-left: 500px; align-items: center;">
+            <div class="filter" style="margin-right: 20px;">
+                <form>
+                    <h1>Đăng nhập</h1>
+                    <label for="username">Tên đăng nhập:</label>
+                    <input type="text" id="username" name="username" placeholder="Nhập tên đăng nhập">
+                    <label for="password">Mật khẩu:</label>
+                    <input type="password" id="password" name="password" placeholder="Nhập mật khẩu">
+                    <button type="submit">Đăng nhập</button>
+                    <div class="social-login">
+                      <div class="google-login" style="margin-bottom: 20PX;">
+                        <a href="#" class="btn-google" style="width: 200px;" >Đăng nhập bằng Google</a>
+                      </div>
+                      <div class="facebook-login">
+                        <a href="#" class="btn-facebook">Đăng nhập bằng Facebook</a>
+                      </div>
+                    </div>
+                  </form>
+            </div>
+           
+        </div>
+        <div id="footer">
+            <div class="footer-group">
+                <div class="address" style="color: white;">
+                    <h2>ADDRESS</h2>
+                    <p>500 Terry Francois Street</p>
+                    <p>San Framcisco, CA 94158</p>
+                    <p>info@mysite.com</p>
+                    <p>Tel: 123-456-7890</p>
+                </div>
+                <div class="contact" style="color: white;">
+                    <h2>CONTACT US</h2>
+                    <div style="display: flex; flex-direction: row;">
+                        <div style="display: flex; flex-direction: column;">
+                            <input type="text" placeholder="Name" style="width: 177px; height: 32px;">
+                            <input type="text" placeholder="Email" style="width: 177px; height: 32px;">
+                            <input type="text" placeholder="Phone" style="width: 177px; height: 32px;">
+                        </div>
+                        <div>
+                            <input type="text" placeholder="Type your message here..." style="width: 163px; height: 110px;">
+                        </div>
+                    </div>
+                    <div style="display: flex; flex-direction: row-reverse;">
+                        <button style="width: 356px; height: 32px;">SUBMIT</button>
+                    </div>
+                </div>
+                <div class="address" style="color: white; display: flex; flex-direction: column;">
+                    <h2>STAY IN TOUCH</h2>
+                    <input type="text" placeholder="Type your message here..." style="width: 237px; height: 33px;">
+                    <button style="width: 243px; height: 33px;">SUBMIT</button>
+                </div>
+            </div>
+            <div id="copyright">
+                <p style="color: white;">2035 by AWESOME SNEAKERS.Powered and secured by Wix</p>
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
