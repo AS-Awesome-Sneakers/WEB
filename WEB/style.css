@@ -91,4 +91,10 @@
 }.des{
     display: flex;
     flex-direction: column;
+}.list-productdt{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}.list-productdt div{
+    padding: 5px;
 }
